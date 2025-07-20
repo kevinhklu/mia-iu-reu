@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-07-18">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="relation_type" type="string" />
+      <attribute id="3" title="color" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="importance" type="string" />
+    </attributes>
+    <nodes>
+      <node id="record_48_patient" label="Patient">
+        <attvalues>
+          <attvalue for="0" value="patient" />
+          <attvalue for="1" value="critical" />
+        </attvalues>
+      </node>
+      <node id="heart failure_primary_condition" label="heart failure">
+        <attvalues>
+          <attvalue for="0" value="primary_condition" />
+          <attvalue for="1" value="important" />
+        </attvalues>
+      </node>
+      <node id="myocardial infarction_primary_condition" label="myocardial infarction">
+        <attvalues>
+          <attvalue for="0" value="primary_condition" />
+          <attvalue for="1" value="important" />
+        </attvalues>
+      </node>
+      <node id="pneumonia_primary_condition" label="pneumonia">
+        <attvalues>
+          <attvalue for="0" value="primary_condition" />
+          <attvalue for="1" value="important" />
+        </attvalues>
+      </node>
+      <node id="COPD_primary_condition" label="COPD">
+        <attvalues>
+          <attvalue for="0" value="primary_condition" />
+          <attvalue for="1" value="important" />
+        </attvalues>
+      </node>
+      <node id="diabetes_primary_condition" label="diabetes">
+        <attvalues>
+          <attvalue for="0" value="primary_condition" />
+          <attvalue for="1" value="important" />
+        </attvalues>
+      </node>
+      <node id="stroke_primary_condition" label="stroke">
+        <attvalues>
+          <attvalue for="0" value="primary_condition" />
+          <attvalue for="1" value="important" />
+        </attvalues>
+      </node>
+      <node id="sepsis_primary_condition" label="sepsis">
+        <attvalues>
+          <attvalue for="0" value="primary_condition" />
+          <attvalue for="1" value="important" />
+        </attvalues>
+      </node>
+      <node id="hypertension_primary_condition" label="hypertension">
+        <attvalues>
+          <attvalue for="0" value="primary_condition" />
+          <attvalue for="1" value="important" />
+        </attvalues>
+      </node>
+      <node id="cancer_primary_condition" label="cancer">
+        <attvalues>
+          <attvalue for="0" value="primary_condition" />
+          <attvalue for="1" value="important" />
+        </attvalues>
+      </node>
+      <node id="furosemide_medication" label="furosemide">
+        <attvalues>
+          <attvalue for="0" value="medication" />
+          <attvalue for="1" value="important" />
+        </attvalues>
+      </node>
+      <node id="metoprolol_medication" label="metoprolol">
+        <attvalues>
+          <attvalue for="0" value="medication" />
+          <attvalue for="1" value="important" />
+        </attvalues>
+      </node>
+      <node id="aspirin_medication" label="aspirin">
+        <attvalues>
+          <attvalue for="0" value="medication" />
+          <attvalue for="1" value="important" />
+        </attvalues>
+      </node>
+      <node id="omeprazole_medication" label="omeprazole">
+        <attvalues>
+          <attvalue for="0" value="medication" />
+          <attvalue for="1" value="important" />
+        </attvalues>
+      </node>
+      <node id="albuterol_medication" label="albuterol">
+        <attvalues>
+          <attvalue for="0" value="medication" />
+          <attvalue for="1" value="important" />
+        </attvalues>
+      </node>
+      <node id="shortness of breath_symptom" label="shortness of breath">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+          <attvalue for="1" value="important" />
+        </attvalues>
+      </node>
+      <node id="nausea_symptom" label="nausea">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+          <attvalue for="1" value="important" />
+        </attvalues>
+      </node>
+      <node id="cough_symptom" label="cough">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+          <attvalue for="1" value="important" />
+        </attvalues>
+      </node>
+      <node id="fever_symptom" label="fever">
+        <attvalues>
+          <attvalue for="0" value="symptom" />
+          <attvalue for="1" value="important" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="record_48_patient" target="heart failure_primary_condition" id="0">
+        <attvalues>
+          <attvalue for="2" value="has" />
+          <attvalue for="3" value="gray" />
+        </attvalues>
+      </edge>
+      <edge source="record_48_patient" target="myocardial infarction_primary_condition" id="1">
+        <attvalues>
+          <attvalue for="2" value="has" />
+          <attvalue for="3" value="gray" />
+        </attvalues>
+      </edge>
+      <edge source="record_48_patient" target="pneumonia_primary_condition" id="2">
+        <attvalues>
+          <attvalue for="2" value="has" />
+          <attvalue for="3" value="gray" />
+        </attvalues>
+      </edge>
+      <edge source="record_48_patient" target="COPD_primary_condition" id="3">
+        <attvalues>
+          <attvalue for="2" value="has" />
+          <attvalue for="3" value="gray" />
+        </attvalues>
+      </edge>
+      <edge source="record_48_patient" target="diabetes_primary_condition" id="4">
+        <attvalues>
+          <attvalue for="2" value="has" />
+          <attvalue for="3" value="gray" />
+        </attvalues>
+      </edge>
+      <edge source="record_48_patient" target="stroke_primary_condition" id="5">
+        <attvalues>
+          <attvalue for="2" value="has" />
+          <attvalue for="3" value="gray" />
+        </attvalues>
+      </edge>
+      <edge source="record_48_patient" target="sepsis_primary_condition" id="6">
+        <attvalues>
+          <attvalue for="2" value="has" />
+          <attvalue for="3" value="gray" />
+        </attvalues>
+      </edge>
+      <edge source="record_48_patient" target="hypertension_primary_condition" id="7">
+        <attvalues>
+          <attvalue for="2" value="has" />
+          <attvalue for="3" value="gray" />
+        </attvalues>
+      </edge>
+      <edge source="record_48_patient" target="cancer_primary_condition" id="8">
+        <attvalues>
+          <attvalue for="2" value="has" />
+          <attvalue for="3" value="gray" />
+        </attvalues>
+      </edge>
+      <edge source="record_48_patient" target="furosemide_medication" id="9">
+        <attvalues>
+          <attvalue for="2" value="has" />
+          <attvalue for="3" value="gray" />
+        </attvalues>
+      </edge>
+      <edge source="record_48_patient" target="metoprolol_medication" id="10">
+        <attvalues>
+          <attvalue for="2" value="has" />
+          <attvalue for="3" value="gray" />
+        </attvalues>
+      </edge>
+      <edge source="record_48_patient" target="aspirin_medication" id="11">
+        <attvalues>
+          <attvalue for="2" value="has" />
+          <attvalue for="3" value="gray" />
+        </attvalues>
+      </edge>
+      <edge source="record_48_patient" target="omeprazole_medication" id="12">
+        <attvalues>
+          <attvalue for="2" value="has" />
+          <attvalue for="3" value="gray" />
+        </attvalues>
+      </edge>
+      <edge source="record_48_patient" target="albuterol_medication" id="13">
+        <attvalues>
+          <attvalue for="2" value="has" />
+          <attvalue for="3" value="gray" />
+        </attvalues>
+      </edge>
+      <edge source="record_48_patient" target="shortness of breath_symptom" id="14">
+        <attvalues>
+          <attvalue for="2" value="has" />
+          <attvalue for="3" value="gray" />
+        </attvalues>
+      </edge>
+      <edge source="record_48_patient" target="nausea_symptom" id="15">
+        <attvalues>
+          <attvalue for="2" value="has" />
+          <attvalue for="3" value="gray" />
+        </attvalues>
+      </edge>
+      <edge source="record_48_patient" target="cough_symptom" id="16">
+        <attvalues>
+          <attvalue for="2" value="has" />
+          <attvalue for="3" value="gray" />
+        </attvalues>
+      </edge>
+      <edge source="record_48_patient" target="fever_symptom" id="17">
+        <attvalues>
+          <attvalue for="2" value="has" />
+          <attvalue for="3" value="gray" />
+        </attvalues>
+      </edge>
+      <edge source="sepsis_primary_condition" target="fever_symptom" id="18" weight="2">
+        <attvalues>
+          <attvalue for="2" value="has_symptom" />
+          <attvalue for="3" value="red" />
+        </attvalues>
+      </edge>
+      <edge source="furosemide_medication" target="heart failure_primary_condition" id="19" weight="2">
+        <attvalues>
+          <attvalue for="2" value="treats" />
+          <attvalue for="3" value="green" />
+        </attvalues>
+      </edge>
+      <edge source="furosemide_medication" target="shortness of breath_symptom" id="20" weight="2">
+        <attvalues>
+          <attvalue for="2" value="prescribed" />
+          <attvalue for="3" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="metoprolol_medication" target="heart failure_primary_condition" id="21" weight="2">
+        <attvalues>
+          <attvalue for="2" value="treats" />
+          <attvalue for="3" value="green" />
+        </attvalues>
+      </edge>
+      <edge source="metoprolol_medication" target="myocardial infarction_primary_condition" id="22" weight="2">
+        <attvalues>
+          <attvalue for="2" value="treats" />
+          <attvalue for="3" value="green" />
+        </attvalues>
+      </edge>
+      <edge source="metoprolol_medication" target="hypertension_primary_condition" id="23" weight="2">
+        <attvalues>
+          <attvalue for="2" value="treats" />
+          <attvalue for="3" value="green" />
+        </attvalues>
+      </edge>
+      <edge source="aspirin_medication" target="myocardial infarction_primary_condition" id="24" weight="2">
+        <attvalues>
+          <attvalue for="2" value="treats" />
+          <attvalue for="3" value="green" />
+        </attvalues>
+      </edge>
+      <edge source="omeprazole_medication" target="nausea_symptom" id="25" weight="2">
+        <attvalues>
+          <attvalue for="2" value="prescribed" />
+          <attvalue for="3" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="albuterol_medication" target="shortness of breath_symptom" id="26" weight="2">
+        <attvalues>
+          <attvalue for="2" value="prescribed" />
+          <attvalue for="3" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="albuterol_medication" target="cough_symptom" id="27" weight="2">
+        <attvalues>
+          <attvalue for="2" value="prescribed" />
+          <attvalue for="3" value="blue" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
